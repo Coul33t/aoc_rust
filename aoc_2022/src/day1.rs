@@ -7,7 +7,8 @@ pub fn day1() {
     day1_1(&data);
     day1_2(&data);
 }
-pub fn day1_1(data: &Vec<String>) {
+
+fn day1_1(data: &Vec<String>) {
     println!("Day 1, first part:");
 
     let mut cal: i32 = 0;
@@ -31,7 +32,7 @@ pub fn day1_1(data: &Vec<String>) {
     println!("Max calories: {}", max_cal);
 }
 
-pub fn day1_2(data: &Vec<String>) {
+fn day1_2(data: &Vec<String>) {
     println!("Day 1, part 2:");
     
     let mut top_3_cal = vec![0, 0, 0];
